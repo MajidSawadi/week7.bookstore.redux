@@ -32,6 +32,17 @@
       "title": "Things Fall Apart",
       "year": 1958,
       "id": "8F627C92410"
+    },
+    {
+      "author": "Mark Twain",
+      "country": "United States",
+      "imageLink": "images/the-adventures-of-huckleberry-finn.jpg",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn\n",
+      "pages": 224,
+      "title": "The Adventures of Huckleberry Finn",
+      "year": 1884,
+      "id": "6A278C170D92"
     }
   ],
   "books": [
