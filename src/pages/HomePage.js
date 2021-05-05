@@ -19,10 +19,10 @@ const HomePage = () => {
   const totalPage = 10;
   const limit = 10;
 
-  const [loading, setLoading] = useState(false);
+  const [loading] = useState(false);
   const [searchInput, setSearchInput] = useState("");
   const [query, setQuery] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
+  const [errorMessage] = useState("");
 
   const history = useHistory();
 
