@@ -1,5 +1,4 @@
 import * as types from "../constants/books.constants";
-
 const initialState = {
   books: [],
   loading: false,
@@ -11,6 +10,12 @@ const booksReducer = (state = initialState, action) => {
   const { type, payload } = action;
 
   switch (type) {
+    case types.GET_BOOKS_REQUEST:
+      return { ...state, loading: true };
+    case types.GET_BOOKS_SUCCESS:
+      return { ...state, books: payload, loading: false };
+    case types.GET_BOOKS_FAILURE:
+      return { ...state, loading: false };
     default:
       return state;
   }
